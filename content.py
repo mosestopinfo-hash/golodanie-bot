@@ -461,7 +461,6 @@ STEPS = {
 "stage1_questionnaire": Step(
     id="stage1_questionnaire",
     messages=[
-        BotMessage(photo="photo_16@12-03-2023_22-06-03.jpg"),
         BotMessage(text=(
             "✏️ АНКЕТИРОВАНИЕ ✏️\n\n"
             "Развёрнутую информацию о здоровье могут дать не только медицинские анализы, но и ваши субъективные ощущения.\n\n"
@@ -1147,7 +1146,7 @@ STEPS = {
         )),
     ],
     buttons=[
-        StepButton("НАЧАТЬ СНАЧАЛА /start", "start"),
+        StepButton("НАЧАТЬ КУРС ЗАНОВО", "course_welcome"),
     ],
 ),
 
